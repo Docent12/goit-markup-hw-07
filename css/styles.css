@@ -898,44 +898,23 @@ padding-bottom: 72px;
 
 @media screen and ( min-width:320px ) {
 
-/* .header {
-
- width:320px;
- height: 56px;
-margin: 0 auto;
-} */
 
 .header .container {
-
  width:320px;
  height: 56px;
 }
-.container {
-}
-.header-navi {
-
-}
-
 .mmenu-link {
-
 display: block;
 }
 .mmenu-link{
-  stroke: var(--green);
-  
- 
+  stroke: var(--navyblue);
 }
 .mmenu-icon{
   width:24px;
   height: 24px;
-
-  
 }
-
 .header-logo {
   margin-right: 0;
-}
-.link {
 }
 .header-logo-studio {
     margin-right: 150px;
@@ -943,26 +922,54 @@ display: block;
 .header-bar {
  display: none;
 }
-.list {
-}
-.header-link-item {
-}
-.header-link {
-}
-.activ {
-}
 .header-adrs {
   display: none;
   margin-left: 0;
 }
-.header-address-list {
+
+
+/*  *    -------------------- HERO 320 ---------------------------- */
+
+.hero {
+  height: 432px;
+ 
+  padding: 72px 0;
 
 }
-.header-address-item {
+.hero .container {
+  width: 320px; 
+
 }
-.header-address {
+.bg-img {
+   background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/Dark-bg.jpg);
 }
-} 
+
+
+
+
+
+
+.hero-title {
+  font-size: 36px;
+  line-height: 1.1;
+  margin: 0 auto;
+width: 199px;
+    height: 188px;
+}
+
+
+.hero-btn {
+  
+  margin: 0 auto;
+  margin-top: 72px;
+}
+
+
+}
 
 /* * OOOOOOOOOOOOOOOOOOOOOOOOO    MEDIA 768 PX OOOOOOOOOOOOOOOOOOO */
 
@@ -973,47 +980,24 @@ display: block;
 .header .container {
  width: 768px;
  height: 72px;
-
 }
-
-
-.container {}
-.header-navi {}
-
 .mmenu-link {
   display: none;
-}
-.header-logo {
-}
-.link {
 }
 .header-logo-studio {
   margin-right: 120px;
 }
-
 .header-bar {
  display: flex;
  margin-right: 122px;
 }
-.list {
-}
-.header-link-item {
-}
-.header-link {
-}
-.activ {
-}
 .header-adrs {
   display: flex;
   margin-left: 0;
-
-
 }
 .header-address-list {
   flex-direction: column;
   gap: 12px;
-}
-.header-address-item {
 }
 .header-address {
   display: flex;
@@ -1021,6 +1005,45 @@ font-size: 12px;
 line-height: 1.2;
 letter-spacing: 0.48px;
 }
+
+/*  *    -------------------- HERO 768 ---------------------------- */
+
+.hero {
+  height: 436px;
+ 
+  padding: 112px 0;
+
+}
+.hero .container {
+  width: 768px; 
+
+}
+.bg-img {
+   background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+}
+
+
+
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.1;
+  margin: 0 auto;
+width: 496px;px;
+    height: 120px;
+}
+
+
+.hero-btn {
+  
+  margin: 0 auto;
+  margin-top: 34px; 
+}
+
 }
 
 
@@ -1028,57 +1051,67 @@ letter-spacing: 0.48px;
 
 @media screen and ( min-width:1158px){
 
-
-  .header .container {
+.header .container {
  width: 1158px;
  height: 72px;
-
 }
 
-
-.container {}
-.header-navi {}
-
-.mmenu-link {
-
-}
-.header-logo {
-}
-.link {
-}
 .header-logo-studio {
   margin-right: 75px;
 }
-
 .header-bar {
-
  margin-right: 328px;
-}
-.list {
-}
-.header-link-item {
-}
-.header-link {
-}
-.activ {
 }
 .header-adrs {
   display: flex;
   margin-left: 0;
-
-
 }
 .header-address-list {
   flex-direction: row;
   gap: 40px;
-}
-.header-address-item {
 }
 .header-address {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.32px;
 }
+
+/*  *    -------------------- HERO 1158 ---------------------------- */
+
+.hero {
+  height: 600px;
+ 
+  padding: 188px 0;
+
+}
+.hero .container {
+  width: 1158px; 
+
+}
+.bg-img {
+   background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+}
+
+
+
+
+.hero-title {
+
+}
+
+
+.hero-btn {
+  
+  margin: 0 auto;
+  margin-top: 34px; 
+}
+
+
+
 
   
 }  
