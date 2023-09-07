@@ -918,7 +918,7 @@ margin: 0 auto;
 
 .mmenu-link {
 
-display: flex;
+display: block;
 }
 .mmenu-link{
   stroke: var(--green);
@@ -956,7 +956,7 @@ display: flex;
   margin-left: 0;
 }
 .header-address-list {
-
+ display: none;
 
 
 }
