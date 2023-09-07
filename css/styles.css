@@ -1018,6 +1018,7 @@ display: block;
 .header-address-item {
 }
 .header-address {
+  display: flex;
 font-size: 12px;
 line-height: 1.2%;
 letter-spacing: 0.48px;
