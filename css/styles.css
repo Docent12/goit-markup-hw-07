@@ -639,9 +639,6 @@ body {
   display: flex;
   gap: 24px;
 }
-.fform-label {
-}
-
 .fform-input {
   width: 264px;
   height: 40px;
@@ -725,9 +722,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--navybluemodal);
   margin-bottom: 16px;
-}
-
-.mform {
 }
 .mform-wrap {
   margin-bottom: 8px;
@@ -1078,4 +1072,87 @@ body {
   }
 
   /* * ==================  MODAL 1158 ( no change as 768)  ==================== */
+}
+
+
+
+
+
+
+
+
+
+/*  * ))))))))))))))))))))))))))))  MOB_HEADER  (((((((((((((((((((((((((((((((((((( */
+
+.mmheader{
+  width: 320px;
+  height: 640px;
+  border:2px solid var(--iris);
+  margin: 0 auto;
+  position: relative;
+  
+}
+.mbtn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mbtn:hover {
+  background-color: var(--ocean);
+  border: none;
+  fill: var(--white);
+}
+.mbtn:focus {
+  background-color: var(--ocean);
+  border: none;
+  fill: var(--white);
+}
+.mbtn-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mbtn-icon {
+}
+.mnavy {
+}
+.mnavy-bar {
+}
+.list {
+}
+.mmunu-link {
+}
+.mnavy-bar-item {
+}
+.mmheader-adrs {
+}
+.mmheader-address-list {
+}
+.mheader-address-item {
+}
+.mheader-address {
+}
+.link {
+}
+.msocialink {
+}
+.msocialtext {
+}
+.msocialink-list {
+}
+.msocialink-item {
+}
+.msocialink-link {
+}
+.msocialink-icon {
 }
