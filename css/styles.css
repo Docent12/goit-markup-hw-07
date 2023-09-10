@@ -14,6 +14,7 @@ img {
 }
 
 :root {
+  --litegray: #fffdfd;
   --ocean: #404bbf;
   --iris: #4d5ae5;
   --navyblue: #2f2f42;
@@ -876,6 +877,75 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+/* *++++++++++++++++++    MOBILE MENU   +++++++++++++++++ */
+
+
+
+.menu-toggle {
+  min-height: 24px;
+  min-width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid gray;
+  border-radius: 50%;
+  outline: none;
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+  background-color: var(--lightslate);
+}
+
+
+
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 32px;
+  background-color: var(--white);
+  z-index: 999;
+
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.menu-container.is-open {
+  transform: translateX(0);
+}
+
+.menu-container .menu-toggle {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color:var(--navybluemodal);
+}
+
+.mobile-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.mobile-menu .link {
+  display: block;
+  padding: 10px;
+
+  text-decoration: none;
+}
+
+
+
+
 /* * OOOOOOOOOOOOOOOOOOOOOOOOO    MEDIA 320 PX OOOOOOOOOOOOOOOOOOO */
 
 @media screen and (min-width: 320px) {
@@ -1018,6 +1088,12 @@ body {
     padding: 72px 24px 24px 24px;
     width: 408px;
     height: 584px;
+  }
+
+  /* *+++++++++++++++++++++ MOB MENU ++++++++++++++++++ */
+
+  .menu-toggle {
+    display: none;
   }
 }
 
