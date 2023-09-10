@@ -892,15 +892,15 @@ body {
   padding: 0;
   background-color: transparent;
   cursor: pointer;
-  border: 0;
-  border-radius: 50%;
+  border: none;
+  border-radius: 10%;
   outline: none;
   
 }
 
 .menu-toggle:hover,
 .menu-toggle:focus {
-  background-color: var(--litegray);
+  background-color: var(--ocean);
 } 
 
 
