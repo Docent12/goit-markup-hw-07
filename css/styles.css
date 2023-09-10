@@ -14,7 +14,7 @@ img {
 }
 
 :root {
-  --litegray: #fffdfd;
+  --litegray: #bbbcff;
   --ocean: #404bbf;
   --iris: #4d5ae5;
   --navyblue: #2f2f42;
@@ -233,7 +233,7 @@ body {
 
 .hero .container {
   display: flex;
-  width: 1158px;
+  /* width: 1158px; */
   padding: 0 15px;
   margin: 0 auto;
   flex-direction: column;
@@ -892,15 +892,16 @@ body {
   padding: 0;
   background-color: transparent;
   cursor: pointer;
-  border: 1px solid gray;
+  border: 0;
   border-radius: 50%;
   outline: none;
+  
 }
 
 .menu-toggle:hover,
 .menu-toggle:focus {
-  background-color: var(--lightslate);
-}
+  background-color: var(--litegray);
+} 
 
 
 
