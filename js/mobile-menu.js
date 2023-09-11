@@ -15,6 +15,16 @@
     bodyScrollLock[scrollLockMethod](document.body);
   };
 
+
+  //  Border for  close and open buttom 
+  closeMenuBtn.style.border = "1px solid #E7E9FC"
+  openMenuBtn.style.border = "1px solid #fff"
+  openMenuBtn.style.borderRadius = "30%"
+  
+
+
+
+
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
 
