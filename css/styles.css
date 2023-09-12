@@ -1147,7 +1147,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 72px 24px;
-    margin: 0 auto;
+    justify-content: center;
   }
   .features-list-title {
     color: var(--navyblue);
@@ -1225,7 +1225,7 @@ body {
     margin-top: 34px;
   }
 
-  /* *================== FEATURES 768 ======================= */
+  /* *================== FEATURES 1158 ======================= */
 
   .featur-icon {
     display: flex;
