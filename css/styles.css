@@ -287,7 +287,7 @@ body {
   justify-content: center;
   height: 112px;
   background-color: #f4f4fd;
-  border: 1px solid var(--lightslate) ;
+  border: 1px solid var(--lightslate);
   border-radius: 4px;
   margin-bottom: 8px;
   flex-direction: column;
@@ -1025,45 +1025,43 @@ body {
 
   /* *================== FEATURES 320 ======================= */
 
-.features {
-  padding: 0;
-}
-.featur-icon{
-  display: none;
-}
-.features .container {
-  min-width: 320px;
-  max-width: 768px;
-  padding-top: 96px;
-  padding-bottom: 96px;
-}
-.features-list{
-  flex-direction: column;
-  gap:72px;
-  margin: 0 auto;
-}
+  .features {
+    padding: 0;
+  }
+  .featur-icon {
+    display: none;
+  }
+  .features .container {
+    min-width: 320px;
+    max-width: 768px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .features-list {
+    flex-direction: column;
+    gap: 72px;
+    margin: 0 auto;
+  }
 
-.features-list-title {
-color: var(--navyblue);
-text-align: center;
+  .features-list-title {
+    color: var(--navyblue);
+    text-align: center;
 
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
 
-}
-
-.features-list-text {
-color: var(--navyblue);
-text-align: center;
-font-weight: 500;
-width: 288px;
-height: 72px;
-
-}
+  .features-list-text {
+    color: var(--navyblue);
+    text-align: center;
+    font-weight: 500;
+    width: 288px;
+    height: 72px;
+  }
 
   /* * ==================  MODAL 320  ==================== */
 
@@ -1072,8 +1070,6 @@ height: 72px;
     width: 288px;
     height: 623px;
   }
-
-  
 }
 
 /* * OOOOOOOOOOOOOOOOOOOOOOOOO    MEDIA 768 PX OOOOOOOOOOOOOOOOOOO */
@@ -1142,26 +1138,26 @@ height: 72px;
   }
 
   /* *================== FEATURES 768 ======================= */
-.features .container {
-  min-width: 768px;
-  max-width: 1158px;
-}
+  .features .container {
+    min-width: 768px;
+    max-width: 1158px;
+  }
 
-.features-list{
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 72px 24px;
-  margin: 0 auto;
-}
-.features-list-title {
-color: var(--navyblue);
-text-align: start;
-}
+  .features-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    margin: 0 auto;
+  }
+  .features-list-title {
+    color: var(--navyblue);
+    text-align: start;
+  }
 
-.features-list-text {
-text-align: start;
-width: 356px;
-}
+  .features-list-text {
+    text-align: start;
+    width: 356px;
+  }
 
   /* * ==================  MODAL 768  ==================== */
 
@@ -1229,39 +1225,34 @@ width: 356px;
     margin-top: 34px;
   }
 
-    /* *================== FEATURES 768 ======================= */
+  /* *================== FEATURES 768 ======================= */
 
-.featur-icon{
-  display: flex;
-}
-.features .container {
-  width: 1158px;
+  .featur-icon {
+    display: flex;
+  }
+  .features .container {
+    width: 1158px;
 
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-.features-list{
-  flex-direction: row;
-  flex-wrap: nowrap;
-  gap: 24px;
-  margin: 0 auto;
-}
-.features-list-title {
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-}
-.features-list-text {
-text-align: start;
-width: 264px;
-}
-
-
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .features-list {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 24px;
+    margin: 0 auto;
+  }
+  .features-list-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .features-list-text {
+    text-align: start;
+    width: 264px;
+  }
 
   /* * ==================  MODAL 1158 ( no change as 768)  ==================== */
-
-
-
 }
 
 /*  * ))))))))))))))))))))))))))))  MOB_HEADER  (((((((((((((((((((((((((((((((((((( */
