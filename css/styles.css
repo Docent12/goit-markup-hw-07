@@ -356,16 +356,16 @@ body {
 
 /** ================= OURTEAM ============= */
 .ourteam {
-  background-color: var(--cloud);
-
-  padding: 120px 0;
+ 
 }
 .ourteam .container {
   display: flex;
-  width: 1158px;
+  /* width: 1158px; */
   padding: 0 15px;
   margin: 0 auto;
   flex-direction: column;
+   background-color: var(--cloud);
+  padding: 120px 0;
 }
 
 .ourteam-title {
@@ -383,8 +383,7 @@ body {
   list-style: none;
   display: flex;
   gap: 24px;
-  padding: 0;
-  margin: 0;
+ 
 }
 
 .ourteam-list-item {
@@ -1067,7 +1066,35 @@ body {
     height: 72px;
   }
 
-  /* * ==================  MODAL 320  ==================== */
+  /*  * ==================OUR TEAM  320  =========================*/
+
+.ourteam .container {
+  
+    min-width: 320px;
+    max-width: 768px;
+    padding: 96px 15px;
+    margin: 0 auto;
+  
+}
+
+.ourteam-list {
+  
+        flex-direction: column;
+    gap: 72px;
+    
+}
+
+.ourteam-list-item {
+  
+    width: 264px;
+    margin: 0 auto;
+   
+}
+
+
+
+
+  /* * ==================  MODAL WINDOWS 320  ==================== */
 
   .modal {
     padding: 72px 16px 16px 24px;
@@ -1152,6 +1179,9 @@ body {
     flex-wrap: wrap;
     gap: 72px 24px;
     justify-content: center;
+    width: 754px;
+    height: 282px;
+
   }
   .features-list-title {
     color: var(--navyblue);
@@ -1162,6 +1192,34 @@ body {
     text-align: start;
     width: 356px;
   }
+
+   /*  * ==================OUR TEAM  768  =========================*/
+
+.ourteam .container {
+  
+    min-width: 768px;
+    max-width: 1158px;
+    padding: 96px 15px;
+    margin: 0 auto;
+  
+}
+
+.ourteam-list {
+  
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 64px 24px; 
+    width: 552px;
+  
+
+    justify-content: space-evenly;
+    margin: 0 auto;
+    
+}
+
+
+
+
 
   /* * ==================  MODAL 768  ==================== */
 
@@ -1178,9 +1236,9 @@ body {
   }
 }
 
-/* * OOOOOOOOOOOOOOOOOOOOOOOOO    MEDIA 1158 PX OOOOOOOOOOOOOOOOOOO */
+/* * OOOOOOOOOOOOOOOOOOOOOOOOO    MEDIA 1157 PX OOOOOOOOOOOOOOOOOOO */
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1157px) {
   .header .container {
     width: 1158px;
     height: 72px;
@@ -1206,7 +1264,7 @@ body {
     letter-spacing: 0.32px;
   }
 
-  /*  *    -------------------- HERO 1158 ---------------------------- */
+  /*  *    -------------------- HERO 1157 ---------------------------- */
 
   .hero {
     height: 600px;
@@ -1229,7 +1287,7 @@ body {
     margin-top: 34px;
   }
 
-  /* *================== FEATURES 1158 ======================= */
+  /* *================== FEATURES 1157 ======================= */
 
   .featur-icon {
     display: flex;
@@ -1255,6 +1313,26 @@ body {
     text-align: start;
     width: 264px;
   }
+
+   /*  * ================== OUR TEAM  1157  =========================*/
+  .ourteam .container{
+
+    width: 1158px;
+    padding: 120px 15px;
+    margin: 0 auto;
+  }
+
+  .ourteam-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+    width: 1128px;
+  
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+   
 
   /* * ==================  MODAL 1158 ( no change as 768)  ==================== */
 }
