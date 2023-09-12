@@ -16,10 +16,10 @@
   };
 
 
-  //  Border for  close and open buttom 
+  //  Border for  close buttom 
   closeMenuBtn.style.border = "1px solid #E7E9FC"
-  openMenuBtn.style.border = "1px solid #fff"
-  openMenuBtn.style.borderRadius = "30%"
+  //openMenuBtn.style.border = "1px solid #FFF"
+  //openMenuBtn.style.borderRadius = "30%"
   
 
 
