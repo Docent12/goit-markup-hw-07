@@ -197,32 +197,31 @@ body {
 
 /** ================= HERO ==================== **/
 
-.hero {
+  .hero {
   height: 600px;
   background-color: var(--navybluemodal);
   padding: 188px 0;
   display: flex;
   margin: 0 auto;
-}
+} 
 .bg-img {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/hero/people-office_x1-desktop-min.jpg);
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
+} 
 
 .hero .container {
   display: flex;
-  /* width: 1158px; */
   padding: 0 15px;
   margin: 0 auto;
   flex-direction: column;
-}
+} 
 
 .hero-title {
   font-family: "Roboto", sans-serif;
@@ -256,7 +255,7 @@ body {
   margin-right: 480px;
   margin-bottom: 0;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} 
 /** ================= FEATURES =============== */
 
 .features {
@@ -1002,8 +1001,14 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/Dark-bg.jpg);
+      url(../images/hero/Dark-bg_x1-mob-min.jpg );
   }
+    @media (min-resolution: 192dpi) {
+  .bg-img {
+    background-image: url(../images/hero/Dark-bg_x2-mob-min.jpg);
+  }
+}
+
   .hero-title {
     font-size: 36px;
     line-height: 1.1;
@@ -1240,8 +1245,16 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/Dark-bg.jpg);
+      url(../images/hero/Dark-bg_x1-tab-min.jpg );
   }
+
+  /*  *================== media-resoltion x2 ================= */
+
+  @media (min-resolution: 192dpi) {
+  .bg-img {
+    background-image: url(../images/hero/Dark-bg_x2-tab-min.jpg);
+  }
+}
 
   .hero-title {
     font-size: 56px;
@@ -1440,6 +1453,14 @@ body {
       ),
       url(../images/people-office.jpg);
   }
+  
+  /*  *================== media-resoltion x2 ================= */
+
+  @media (min-resolution: 192dpi) {
+  .bg-img {
+    background-image: url(../images/hero/people-office_x2-desktop-min.jpg);
+  }
+}
 
   .hero-btn {
     margin: 0 auto;
