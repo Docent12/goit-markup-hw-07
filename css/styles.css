@@ -1005,7 +1005,10 @@ body {
   }
     @media (min-resolution: 192dpi) {
   .bg-img {
-    background-image: url(../images/hero/Dark-bg_x2-mob-min.jpg);
+    background-image: background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ), url(../images/hero/Dark-bg_x2-mob-min.jpg);
   }
 }
 
@@ -1252,7 +1255,10 @@ body {
 
   @media (min-resolution: 192dpi) {
   .bg-img {
-    background-image: url(../images/hero/Dark-bg_x2-tab-min.jpg);
+    background-image: background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ), url(../images/hero/Dark-bg_x2-tab-min.jpg);
   }
 }
 
@@ -1451,14 +1457,17 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office.jpg);
+      url(../images/hero/people-office_x1-desktop-min.jpg);
   }
   
   /*  *================== media-resoltion x2 ================= */
 
   @media (min-resolution: 192dpi) {
   .bg-img {
-    background-image: url(../images/hero/people-office_x2-desktop-min.jpg);
+    background-image: background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ), url(../images/hero/people-office_x2-desktop-min.jpg);
   }
 }
 
