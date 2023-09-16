@@ -1068,9 +1068,9 @@ display: flex;
   .features-list-text {
     color: var(--navyblue);
 
-    font-weight: 500;
+    /* font-weight: 500; */
     width: 288px;
-    height: 72px;
+    /* height: 72px; */
   }
 
   /*  * ==================OUR TEAM  320  =========================*/
@@ -1296,8 +1296,8 @@ display: flex;
     flex-wrap: wrap;
     gap: 72px 24px;
     justify-content: center;
-    width: 754px;
-    height: 282px;
+    /* width: 754px; */
+    /* height: 282px; */
   }
   .features-list-title {
     color: var(--navyblue);
@@ -1310,6 +1310,7 @@ display: flex;
   }
 
   /*  * ==================OUR TEAM  768  =========================*/
+
 
   .ourteam .container {
     min-width: 768px;
@@ -1495,11 +1496,13 @@ display: flex;
   .featur-icon {
     display: flex;
   }
+
+  .features {
+  padding-bottom: 120px;
+}
   .features .container {
     width: 1158px;
 
-    padding-top: 120px;
-    padding-bottom: 120px;
   }
   .features-list {
     flex-direction: row;
@@ -1518,10 +1521,15 @@ display: flex;
   }
 
   /*  * ================== OUR TEAM  1157  =========================*/
+.ourteam {
+    padding: 120px 0;
+}
+
+
 
   .ourteam .container {
     width: 1158px;
-    padding: 120px 15px;
+    padding: 0 15px;
     margin: 0 auto;
   }
 
